@@ -1,0 +1,91 @@
+/* Base styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #4a6fa5;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Button styling */
+button {
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+/* Wallet connection section */
+#walletConnection {
+    margin-bottom: 20px;
+}
+
+#walletAddress {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Exchange form section */
+#exchangeForm {
+    margin-bottom: 20px;
+}
+
+/* Terms and Conditions link */
+#termsAndConditions {
+    margin-top: 20px;
+}
+
+#termsAndConditions a {
+    color: #4a6fa5;
+    text-decoration: none;
+}
+
+#termsAndConditions a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header, footer {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    button {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+}
