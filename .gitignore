@@ -201,3 +201,8 @@ Temporary Items
 .apdisk
 # .env file
 .env
+# Node modules
+node_modules/
+
+# Environment variables
+.env
